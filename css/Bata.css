@@ -1,0 +1,130 @@
+.nav-header a:hover{
+   
+    color: blue;
+     border-radius: 20px;
+     transition: transform 0.3s ease;
+ 
+ }
+ 
+ 
+ .nav-header input{
+     width: 300px;
+     height: 30px;
+     
+ }
+ .navegacion{
+     background-color: white;
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 1rem 7%;
+     color: white;
+     position: fixed;
+     top: 0;
+     z-index: 100;
+     box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+ }
+ 
+/*CONTENIDO DE IMAGEB*/
+
+.contenido-imagen{
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    width: 100%;
+    
+    border: 20px solid rgb(33, 121, 221);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    overflow: hidden;
+   
+
+    
+ }
+ 
+    
+ /*FIN DEL CONTENIDO DE IMAGEN*/
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+  
+    }
+    
+    .card{
+        width: 325px;
+        background-color: #f4f4f4;
+        
+        box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+        overflow: hidden;
+    }
+    
+    .card img{
+        width: 400px;
+        height:200px ;
+        object-fit: cover;
+    }
+    .contenido{
+        padding: 20px;
+    }
+    
+    .contenido p{
+        font-size: 24px;
+        color: #666;
+        margin-bottom: 20px;
+    
+    }
+  
+    .card{
+      transition: 0.5s;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        background-color: rgb(241, 241, 241);
+        width: 22%;
+        height:auto ;
+        object-fit: cover;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.61);
+    }
+    .card:hover{
+      transform: scale(1.1);
+    }
+  /*COMIENZO DEL FOOTER*/
+/*COMIENZO DEL FOOTER*/
+.main-footer{
+    padding: 4rem 7%;
+    background: linear-gradient(45deg, rgba(0, 150, 199, 0.85), rgba(0, 52, 89, 0.85));
+}
+.footer-inner{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footer-content{
+    flex: 1 1 200px;
+    text-align: center;
+}
+.footer-content h1{
+    color: white;
+    font-size: 25px;
+}
+.link a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size:15px;
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+
+/*FIN DEL FOOTER*/
+

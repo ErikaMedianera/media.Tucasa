@@ -1,0 +1,434 @@
+/*Estilos del encabezado*/
+.encabezado{
+   margin: 10px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imagenes/pexels-photo-2724748.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding: 1rem 2rem;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e1e1e1;
+}
+.navegacion{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ;
+}
+.logo{
+    
+    color: white;
+    font-size: 2.2rem;
+    margin: 0 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.logo .tu{
+    color: rgb(247, 247, 2);
+}
+.navegacion ul li a{
+    color: white;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navegacion ul li a:hover{
+    color: rgb(244, 244, 6);
+}
+
+
+.search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.search-input {
+    margin-top: 40px;
+    width: 0;
+    opacity: 0;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: white;
+    width: 80vw;
+}
+.search-container.active .search-input {
+    opacity: 1;
+    width: 80vw;
+}
+.search-icon {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+/*fin de estilos del encabezado*/
+
+.linea-servicios{
+  padding: 50px;  
+  text-align: center;
+}
+.linea-servicios h1{
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+.linea-servicios  .hr-rigth{
+    width: 130px;
+    height: 2px;
+    margin-left: 220px;
+}
+.linea-servicios .hr-left{
+    width: 130px;
+    margin-top: 10px;
+    height: 2px;
+    margin-left: 700px;
+}
+.linea-servicios p{
+    stop-color: rgb(165, 161, 161);
+    font-weight: normal;
+}
+.contenedor-servicios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    
+}
+.contenedor-servicios ul{
+    padding: 30px;
+}
+.contenedor-servicios ul, li{
+    list-style: none;
+    text-align: justify;
+    padding: 10px;
+    
+}
+.contenedor-servicios ul li a{
+    text-decoration: none;
+    color: #333;
+    font-size: 1.2rem;
+    font-weight: 200px;
+    
+    
+}
+.contenedor-servicios ul h4{
+    
+    text-align: justify;
+    margin-left: 15px;
+    font-size: 1.2rem;
+    font-weight: 200px;
+}
+.contenedor-servicios ul li a i{
+    color: rgb(219, 219, 9);
+    
+}
+.contenedor-servicios ul li a:hover{
+    color: rgb(219, 219, 9);
+}
+.servicio-imagen{
+    
+    background-color: rgb(223, 222, 223);
+    height: auto;
+}
+.tarjetas{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.servicio-imagen .card{
+   
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(223, 222, 223);
+    transition: 0.3s;
+}
+.tarjetas .card a{
+    margin-left: 50px;
+}
+.contenido-otros-service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service-numero{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.service-numero span{
+   
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(249, 204, 4);
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+    transition: ease-in-out;
+}
+.service-numero span:hover{
+    background-color: rgb(249, 204, 4);
+    border-radius: none;
+    transform: scale(1.5);
+   
+}
+.service-numero .lorem{
+    text-align: justify;
+    width: 300px;
+    padding-left: 30px;
+    font-size: 15px;
+    font-weight: 300px;
+    
+}
+.service-numero .lorem h3{
+   
+    font-size: 1.5rem;
+    font-weight: 500px;
+}
+.suscripcion{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imagenes/pexels-photo-2724748.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding: 1rem 2rem;
+    padding-top: 20px;
+    margin: 5px 20px;
+    text-align: center;
+}
+.suscripcion h2{
+    color: rgb(249, 204, 4);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin-top: 50px;
+    margin-bottom: 1rem;
+}
+.suscripcion p{
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+.linea{
+  display:flex;
+   
+}
+.linea hr{
+    margin-top: 80px;
+    width: 80%;
+    color: yellow;
+    height: 3px;
+    margin-left: 50px;
+   background-color: rgb(224, 249, 4);
+}
+.linea button{
+    background-color: rgb(241, 249, 4);
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 50px;
+    transition: 0.3s;
+}
+.sociales{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+
+.linea-servicios {
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+.sociales {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.icono {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icono a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.icono:nth-child(1) a { background: #3b5998; } 
+.icono:nth-child(2) a { background: #1da1f2; } 
+.icono:nth-child(3) a { background: #e1306c; } 
+.icono:nth-child(4) a { background: #ff0000; } 
+
+h6 {
+    margin-top: 8px;
+    font-size: 14px;
+}
+.footer{
+    height: 150px;
+    margin-top: 20px;
+    background: linear-gradient(45deg, rgba(0, 150, 199, 0.85), rgba(0, 52, 89, 0.85));
+}
+.footer .footers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.footer .footers a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.footer .footers a:hover{
+    color: rgb(249, 204, 4);
+}
+.footer  p{
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+   padding: 20px;
+    font-weight: bold;
+}
+
+#resultadosBusqueda {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#resultadosBusqueda .card {
+    margin-bottom: 20px;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 1024px) {
+    .encabezado {
+        height: 300px;
+        padding: 1rem;
+    }
+    .linea-servicios h1 {
+        font-size: 3rem;
+    }
+    .linea-servicios .hr-rigth, .linea-servicios .hr-left {
+        width: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contenedor-servicios {
+        flex-direction: column;
+        align-items: center;
+    }
+    .tarjetas {
+        flex-direction: column;
+        align-items: center;
+    }
+    .service-numero {
+        flex-direction: column;
+    }
+    .service-numero .lorem {
+        width: 90%;
+        padding-left: 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .encabezado {
+        height: 250px;
+        text-align: center;
+    }
+    .navegacion {
+        flex-direction: column;
+    }
+    .logo {
+        font-size: 1.8rem;
+        margin: 10px 0;
+    }
+    .navegacion ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navegacion ul li {
+        margin: 5px 0;
+    }
+    .linea-servicios h1 {
+        font-size: 2.5rem;
+    }
+    .suscripcion {
+        height: auto;
+        padding: 20px;
+    }
+    .suscripcion h2 {
+        font-size: 2rem;
+    }
+    .sociales {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .encabezado {
+        height: 400px;
+    }
+    .navegacion ul li a {
+        font-size: 1rem;
+    }
+    .linea-servicios h1 {
+        font-size: 2rem;
+    }
+    .contenedor-servicios ul li a {
+        font-size: 1rem;
+    }
+    .service-numero span {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .footer p {
+
+        font-size: 1rem;
+    }
+}

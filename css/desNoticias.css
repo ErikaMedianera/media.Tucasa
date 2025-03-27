@@ -1,0 +1,136 @@
+/*Estilos del encabezado*/
+.encabezado {
+    margin: 10px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imagenes/pexels-photo-2724748.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent; /* Asegúrate de que el fondo sea transparente */
+}
+
+.logo {
+    color: white;
+    font-size: 2.2rem;
+    margin: 0 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.logo .tu {
+    color: rgb(247, 247, 2);
+}
+
+.navegacion ul li a {
+    color: white;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.navegacion ul li a:hover {
+    color: rgb(244, 244, 6);
+}
+
+/*fin de estilos del encabezado*/
+.titulo {
+    padding-top: 80px;
+}
+
+.titulo h1 {
+    height: 100px;
+    color: rgb(42, 46, 50);
+    display: flex;
+    align-items: center;
+    justify-content: justify;
+    background: linear-gradient(to right, rgb(179, 179, 179), rgb(179, 179, 180));
+    text-align: justify;
+    font-size: 40px;
+    padding: 10px;
+    color: rgb(24, 140, 179);
+    font-weight: bold;
+}
+
+.container-fluid {
+    margin-top: 20px;
+    width: 100%;
+    
+}
+
+.contenedor-contexto h6 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(95, 95, 95);
+    padding: 20px;
+}
+
+.contenedor-contexto img {
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+}
+
+.contenedor-desarrollo {
+    width: 100%;
+    height: auto;
+    text-align: justify;
+    font-size: 20px;
+    padding: 20px;
+    color: rgb(118, 116, 116);
+}
+
+.contenedor-desarrollo h2 {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(4, 89, 132);
+}
+
+/*COMIENZO DEL FOOTER*/
+.footer {
+    height: 150px;
+    margin-top: 30px;
+    background: linear-gradient(45deg, rgba(0, 150, 199, 0.85), rgba(0, 52, 89, 0.85));
+}
+
+.footer .footers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.footer .footers a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.footer .footers a:hover {
+    color: rgb(249, 204, 4);
+}
+
+.footer p {
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    padding: 20px;
+    font-weight: bold;
+}
+
+/*FIN DEL FOOTER*/

@@ -1,0 +1,143 @@
+.contenido{
+    height: 100vh;
+    background-image: linear-gradient(to top,rgba(161, 140, 209, 0.5)0%,rgba(251, 194, 235, 0.5) 100%),url(../imagenes/pexels-photo-2724748.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+    
+}
+.contenido h1{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.contenido .copy{
+    font-weight: 300;
+    font-size: 25px;
+}
+.head{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+}
+/*Nuestro servicio*/
+
+/*Nuestro servicio*/
+.subtitulo{
+    text-align: center;
+    font-weight: 300;
+    color: #764ba2;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.contenedor-servicio{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contenedor-servicio img{
+    width: 40%;
+}
+.checklist-servicio{
+    width: 45%;
+}
+.service{
+    margin-bottom: 20px;
+
+}
+.n-servicio{
+    margin-bottom: 7px;
+    color: #9f8ad0;
+}
+.number{
+    display: inline-block;
+    background-image: linear-gradient(to top,#a18cd1 0%,#fbc2eb 100%);
+    width: 30px;
+    height: 30px;
+    color: #ffff;
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    line-height: 30px;
+    margin-right: 5px;
+
+}
+.subtitulo{
+    text-align: center;
+    font-weight: 300;
+    color: #764ba2;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+.carousel{
+ object-fit: cover;    
+display: block;
+box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+cursor: pointer;
+}
+
+/* la parte del footer*/
+footer{
+    background: #9f8ad0;
+    padding-bottom: 0.1px;
+}
+.footer-content{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 40px;
+
+}
+.contact-us{
+    width: 40%;
+    color: #ffff;
+}
+.brand{
+    font-weight: 500;
+    font-size: 40px;
+}
+.brand+p{/* indica que una etiqueta es hermana de otra*/
+    font-weight: 500;
+
+}
+.social-media{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.social-media-icon{
+    display: inline-block;
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+
+}
+.social-media-icon:hover{
+    background-color: #fff;
+    color: #764ba2;
+}
+.social-media-icon i{
+    font-size: 30px;
+    line-height: 60px;
+}
+.line{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 2px;
+    background: #fff;
+    margin-bottom: 60px;
+
+}

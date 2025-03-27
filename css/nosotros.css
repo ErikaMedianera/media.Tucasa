@@ -1,0 +1,230 @@
+:root{
+    --maincolor:#2ec8a6;
+    --secundocolor:#f8a803;
+    --tercercolor:#f4ab01;
+    --textcolor:#4A5764;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    
+/*Estilos del encabezado*/
+.encabezado{
+    margin: 10px;
+     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../imagenes/pexels-photo-2724748.webp);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height: 400px;
+     padding: 1rem 2rem;
+     background-color: #f5f5f5;
+     border-bottom: 1px solid #e1e1e1;
+ }
+ .navegacion{
+     
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     ;
+ }
+ .logo{
+     
+     color: white;
+     font-size: 2.2rem;
+     margin: 0 1rem;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-weight: bold;
+ }
+ .logo .tu{
+     color: rgb(247, 247, 2);
+ }
+ .navegacion ul li a{
+     color: white;
+     font-size: 1.2rem;
+     margin: 0 1rem;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-weight: bold;
+ }
+ .navegacion ul li a:hover{
+     color: rgb(244, 244, 6);
+ }
+ /*fin de estilos del encabezado*/
+
+ .search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.search-input {
+    margin-top: 40px;
+    width: 0;
+    opacity: 0;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background: white;
+    width: 80vw;
+}
+.search-container.active .search-input {
+    opacity: 1;
+    width: 80vw;
+}
+.search-icon {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/*FIN DE SECCION DE CONTENIDOS*/
+.contenidos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.imagen img{
+    margin: 35px;
+    margin-top: 120px;
+    width: 500px;
+    height: 400px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+    transition: 0.5s ease-in-out;
+}
+.imagen img:hover{
+    transform: scale(1.2);
+}
+.seccion-cntenido{
+   margin-left: 30px;
+}
+.seccion-cntenido h3{
+    font-size: 35px;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    text-align: center;
+    color: rgb(75, 75, 239);
+}
+.seccion-cntenido p{
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.seccion-cntenido button{
+    background-color: rgb(14, 155, 211);
+    color: aliceblue;
+    font-size: 20px;
+}
+
+/*FIN DE SECCION DE CONTENIDOS*/
+
+/*TARJETAS DEL PERSONAL*/
+
+.tarjetas-personal{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 40px;
+    background-color: rgb(245, 245, 245);
+    padding: 20px;
+}
+.tarjeta{
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+}
+.tarjeta img{ 
+    object-fit: cover;
+
+    
+}
+.card-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+/*FIN DE LOS ESTILOS DE LAS TARJETAS*/
+
+/*COMIENZO SLIDER*/
+
+
+/*FIN DEL HEADER*/
+
+/*COMIENZO DEL FOOTER*/
+
+.footer{
+    height: 150px;
+    margin-top: 30px;
+    background: linear-gradient(45deg, rgba(0, 150, 199, 0.85), rgba(0, 52, 89, 0.85));
+}
+.footer .footers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.footer .footers a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.footer .footers a:hover{
+    color: rgb(249, 204, 4);
+}
+.footer  p{
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+    margin: 0 1rem;
+   padding: 20px;
+    font-weight: bold;
+}
+/*FIN DEL FOOTER*/
+
+@media  (max-width: 768px) and (min-width: 320px){
+    .navegacion{
+        padding: 1rem 5%;
+        
+    }
+    .contenidos{
+        display: block;
+    }
+    
+    .imagen img{
+        width: 300px;
+        height: 250px;
+    }
+    .seccion-cntenido button{
+       margin-left: 130px;
+    }
+    .seccion-cntenido{
+        margin-left: 0;
+    }
+    .seccion-cntenido h3{
+        font-size: 25px;
+    }
+    .seccion-cntenido p{
+        font-size: 15px;
+    }
+    .seccion-cntenido button{
+        font-size: 15px;
+    }
+    .footer{
+      height: auto;
+    }
+   
+}
